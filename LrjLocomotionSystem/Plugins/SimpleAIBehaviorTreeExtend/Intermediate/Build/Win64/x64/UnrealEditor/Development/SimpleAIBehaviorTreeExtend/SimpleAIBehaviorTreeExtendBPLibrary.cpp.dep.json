@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simpleaibehaviortreeextend\\source\\simpleaibehaviortreeextend\\private\\simpleaibehaviortreeextendbplibrary.cpp",
+        "ProvidedModule": "",
+        "PCH": "f:\\github\\unrealengine\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.project.nonoptimized.valapi.cpp20.h.pch",
+        "Includes": [
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simpleaibehaviortreeextend\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\simpleaibehaviortreeextend\\definitions.simpleaibehaviortreeextend.h",
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simpleaibehaviortreeextend\\source\\simpleaibehaviortreeextend\\public\\simpleaibehaviortreeextendbplibrary.h",
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simpleaibehaviortreeextend\\intermediate\\build\\win64\\unrealeditor\\inc\\simpleaibehaviortreeextend\\uht\\simpleaibehaviortreeextendbplibrary.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
