@@ -1,0 +1,17 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "g:\\advancedanimation\\plugins\\simpledataregistryextend\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\simpledataregistryextend\\module.simpledataregistryextend.cpp",
+        "ProvidedModule": "",
+        "PCH": "g:\\advancedanimation\\intermediate\\build\\win64\\x64\\advancedanimationeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "g:\\advancedanimation\\plugins\\simpledataregistryextend\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\simpledataregistryextend\\definitions.simpledataregistryextend.h",
+            "g:\\advancedanimation\\plugins\\simpledataregistryextend\\intermediate\\build\\win64\\unrealeditor\\inc\\simpledataregistryextend\\uht\\simpledataregistryextend.init.gen.cpp",
+            "g:\\advancedanimation\\plugins\\simpledataregistryextend\\intermediate\\build\\win64\\unrealeditor\\inc\\simpledataregistryextend\\uht\\simpledataregistryextendbplibrary.gen.cpp",
+            "g:\\advancedanimation\\plugins\\simpledataregistryextend\\source\\simpledataregistryextend\\public\\simpledataregistryextendbplibrary.h",
+            "g:\\advancedanimation\\plugins\\simpledataregistryextend\\intermediate\\build\\win64\\unrealeditor\\inc\\simpledataregistryextend\\uht\\simpledataregistryextendbplibrary.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplecombat\\source\\simplecombat\\private\\hit\\impulse\\simpleskeletalmeshhitobject.cpp",
+        "ProvidedModule": "",
+        "PCH": "f:\\github\\unrealengine\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplecombat\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\simplecombat\\definitions.simplecombat.h",
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplecombat\\source\\simplecombat\\public\\hit\\impulse\\simpleskeletalmeshhitobject.h",
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplecombat\\source\\simplecombat\\public\\timer\\simpletimermanage.h",
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplecombat\\source\\simplecombat\\public\\timer\\simpletimerobject.h",
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplecombat\\source\\simplecombat\\public\\timer\\simpletimertype.h",
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplecombat\\intermediate\\build\\win64\\unrealeditor\\inc\\simplecombat\\uht\\simpletimerobject.generated.h",
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplecombat\\intermediate\\build\\win64\\unrealeditor\\inc\\simplecombat\\uht\\simpletimermanage.generated.h",
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplecombat\\intermediate\\build\\win64\\unrealeditor\\inc\\simplecombat\\uht\\simpleskeletalmeshhitobject.generated.h",
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplecombat\\source\\simplecombat\\public\\simplecombotype.h",
+            "f:\\github\\unrealengine\\engine\\source\\runtime\\gameplaytags\\classes\\gameplaytagcontainer.h",
+            "f:\\github\\unrealengine\\engine\\source\\runtime\\core\\public\\misc\\comparisonutility.h",
+            "f:\\github\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplaytags\\uht\\gameplaytagcontainer.generated.h",
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplecombat\\intermediate\\build\\win64\\unrealeditor\\inc\\simplecombat\\uht\\simplecombotype.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

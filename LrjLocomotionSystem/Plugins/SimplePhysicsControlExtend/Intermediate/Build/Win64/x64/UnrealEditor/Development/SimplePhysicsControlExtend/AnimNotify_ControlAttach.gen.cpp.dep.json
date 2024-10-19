@@ -1,0 +1,17 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplephysicscontrolextend\\intermediate\\build\\win64\\unrealeditor\\inc\\simplephysicscontrolextend\\uht\\animnotify_controlattach.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "f:\\github\\unrealengine\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplephysicscontrolextend\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\simplephysicscontrolextend\\definitions.simplephysicscontrolextend.h",
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplephysicscontrolextend\\source\\simplephysicscontrolextend\\public\\animnotify\\animnotify_controlattach.h",
+            "f:\\github\\unrealengine\\engine\\plugins\\experimental\\physicscontrol\\source\\physicscontrol\\public\\physicscontroldata.h",
+            "f:\\github\\unrealengine\\engine\\plugins\\experimental\\physicscontrol\\intermediate\\build\\win64\\unrealeditor\\inc\\physicscontrol\\uht\\physicscontroldata.generated.h",
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplephysicscontrolextend\\intermediate\\build\\win64\\unrealeditor\\inc\\simplephysicscontrolextend\\uht\\animnotify_controlattach.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

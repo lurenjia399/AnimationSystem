@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-SimpleDataRegistryExtend.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"G:\AdvancedAnimation\Intermediate\Build\Win64\x64\AdvancedAnimationEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"G:\AdvancedAnimation\Plugins\SimpleDataRegistryExtend\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleDataRegistryExtend\Module.SimpleDataRegistryExtend.cpp.obj"
+"G:\AdvancedAnimation\Plugins\SimpleDataRegistryExtend\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleDataRegistryExtend\SimpleDataRegistryExtend.cpp.obj"
+"G:\AdvancedAnimation\Plugins\SimpleDataRegistryExtend\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleDataRegistryExtend\SimpleDataRegistryExtendBPLibrary.cpp.obj"
+"G:\AdvancedAnimation\Plugins\SimpleDataRegistryExtend\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleDataRegistryExtend\SimpleDataRegistryManage.cpp.obj"
+"G:\AdvancedAnimation\Plugins\SimpleDataRegistryExtend\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleDataRegistryExtend\SimpleDataRegistryResolver.cpp.obj"
+"G:\AdvancedAnimation\Plugins\SimpleDataRegistryExtend\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleDataRegistryExtend\Default.rc2.res"
+/OUT:"G:\AdvancedAnimation\Plugins\SimpleDataRegistryExtend\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleDataRegistryExtend\UnrealEditor-SimpleDataRegistryExtend.lib"

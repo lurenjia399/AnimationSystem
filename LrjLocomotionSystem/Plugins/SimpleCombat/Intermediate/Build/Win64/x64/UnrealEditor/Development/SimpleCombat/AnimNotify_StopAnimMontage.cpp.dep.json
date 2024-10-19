@@ -1,0 +1,23 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplecombat\\source\\simplecombat\\private\\animnotify\\animnotify_stopanimmontage.cpp",
+        "ProvidedModule": "",
+        "PCH": "f:\\github\\unrealengine\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplecombat\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\simplecombat\\definitions.simplecombat.h",
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplecombat\\source\\simplecombat\\public\\animnotify\\animnotify_stopanimmontage.h",
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplecombat\\intermediate\\build\\win64\\unrealeditor\\inc\\simplecombat\\uht\\animnotify_stopanimmontage.generated.h",
+            "f:\\github\\unrealengine\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
+            "f:\\github\\unrealengine\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
+            "f:\\github\\unrealengine\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\serialization\\irisobjectreferencepackagemap.h",
+            "f:\\github\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\iriscore\\uht\\irisobjectreferencepackagemap.generated.h",
+            "f:\\github\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\charactermovementreplication.generated.h",
+            "f:\\github\\unrealengine\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
+            "f:\\github\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rootmotionsource.generated.h",
+            "f:\\github\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

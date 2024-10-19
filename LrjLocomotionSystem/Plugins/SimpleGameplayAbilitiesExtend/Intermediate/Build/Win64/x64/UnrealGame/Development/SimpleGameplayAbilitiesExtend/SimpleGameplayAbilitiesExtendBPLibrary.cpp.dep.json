@@ -1,0 +1,16 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "g:\\advancedanimation\\plugins\\simplegameplayabilitiesextend\\source\\simplegameplayabilitiesextend\\private\\simplegameplayabilitiesextendbplibrary.cpp",
+        "ProvidedModule": "",
+        "PCH": "g:\\advancedanimation\\intermediate\\build\\win64\\x64\\advancedanimation\\development\\engine\\sharedpch.engine.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "g:\\advancedanimation\\plugins\\simplegameplayabilitiesextend\\intermediate\\build\\win64\\x64\\unrealgame\\development\\simplegameplayabilitiesextend\\definitions.simplegameplayabilitiesextend.h",
+            "g:\\advancedanimation\\plugins\\simplegameplayabilitiesextend\\source\\simplegameplayabilitiesextend\\public\\simplegameplayabilitiesextendbplibrary.h",
+            "g:\\advancedanimation\\plugins\\simplegameplayabilitiesextend\\intermediate\\build\\win64\\unrealgame\\inc\\simplegameplayabilitiesextend\\uht\\simplegameplayabilitiesextendbplibrary.generated.h",
+            "g:\\advancedanimation\\plugins\\simplegameplayabilitiesextend\\source\\simplegameplayabilitiesextend\\public\\simplegameplayabilitiesextend.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

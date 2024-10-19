@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simpleconfig\\intermediate\\build\\win64\\unrealeditor\\inc\\simpleconfig\\uht\\simpleconfigbplibrary.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "f:\\github\\unrealengine\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\coreuobject\\sharedpch.coreuobject.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simpleconfig\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\simpleconfig\\definitions.simpleconfig.h",
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simpleconfig\\source\\simpleconfig\\public\\simpleconfigbplibrary.h",
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simpleconfig\\intermediate\\build\\win64\\unrealeditor\\inc\\simpleconfig\\uht\\simpleconfigbplibrary.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplecombat\\intermediate\\build\\win64\\unrealeditor\\inc\\simplecombat\\uht\\animnotify_screenshock.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "f:\\github\\unrealengine\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplecombat\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\simplecombat\\definitions.simplecombat.h",
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplecombat\\source\\simplecombat\\public\\animnotify\\animnotify_screenshock.h",
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplecombat\\intermediate\\build\\win64\\unrealeditor\\inc\\simplecombat\\uht\\animnotify_screenshock.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

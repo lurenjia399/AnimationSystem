@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplecombat\\source\\simplecombateditor\\private\\simplecombateditorcommands.cpp",
+        "ProvidedModule": "",
+        "PCH": "f:\\github\\unrealengine\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplecombat\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\simplecombateditor\\definitions.simplecombateditor.h",
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplecombat\\source\\simplecombateditor\\public\\simplecombateditorcommands.h",
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplecombat\\source\\simplecombateditor\\public\\simplecombateditorstyle.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

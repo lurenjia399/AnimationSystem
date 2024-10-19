@@ -1,0 +1,44 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SimpleGameplayAbilitiesExtend.cpp.obj": [
+			"AbilityTask_PMAWDamageEvent.gen.cpp.obj",
+			"ExecutionCalculation_0Velocity.gen.cpp.obj",
+			"GameplayAbility_Effect.gen.cpp.obj",
+			"GameplayAbility_Skill.gen.cpp.obj",
+			"GameplayCueNotify_Effects.gen.cpp.obj",
+			"GameplayCueNotify_Hit.gen.cpp.obj",
+			"GameplayCueNotify_PlaySound.gen.cpp.obj",
+			"GameplayCueNotify_Static_Effects.gen.cpp.obj",
+			"GameplayCueNotify_Static_Hit.gen.cpp.obj",
+			"ISimpleGameplayAbilitiesExtendInterface.gen.cpp.obj",
+			"SimpleAbilityGameplayEffect.gen.cpp.obj",
+			"SimpleAbilitySystemComponent.gen.cpp.obj",
+			"SimpleFightComponent.gen.cpp.obj",
+			"SimpleGameplayAbilitiesExtend.init.gen.cpp.obj",
+			"SimpleGameplayAbilitiesExtendBPLibrary.gen.cpp.obj",
+			"SimpleGameplayAbility.gen.cpp.obj",
+			"SimpleGameplayAbilityActor.gen.cpp.obj",
+			"SimpleGameplayAbilityMontage.gen.cpp.obj",
+			"SimpleGameplayAbilityType.gen.cpp.obj",
+			"AbilityTask_PMAWDamageEvent.cpp.obj",
+			"GameplayCueNotify_Effects.cpp.obj",
+			"GameplayCueNotify_Hit.cpp.obj",
+			"GameplayCueNotify_PlaySound.cpp.obj",
+			"GameplayCueNotify_Static_Effects.cpp.obj",
+			"GameplayCueNotify_Static_Hit.cpp.obj",
+			"ExecutionCalculation_0Velocity.cpp.obj",
+			"SimpleAbilityGameplayEffect.cpp.obj",
+			"SimpleAbilitySystemComponent.cpp.obj",
+			"SimpleGameplayAbility.cpp.obj",
+			"SimpleGameplayAbilityActor.cpp.obj",
+			"SimpleGameplayAbilityMontage.cpp.obj",
+			"SimpleGameplayAbilityType.cpp.obj",
+			"GameplayAbility_Effect.cpp.obj",
+			"GameplayAbility_Skill.cpp.obj",
+			"SimpleFightComponent.cpp.obj",
+			"SimpleGameplayAbilitiesExtend.cpp.obj",
+			"SimpleGameplayAbilitiesExtendBPLibrary.cpp.obj"
+		]
+	}
+}

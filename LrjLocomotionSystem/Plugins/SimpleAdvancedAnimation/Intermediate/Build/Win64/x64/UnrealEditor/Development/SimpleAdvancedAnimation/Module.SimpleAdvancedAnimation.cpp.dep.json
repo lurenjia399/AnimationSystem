@@ -1,0 +1,31 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "g:\\advancedanimation\\plugins\\simpleadvancedanimation\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\simpleadvancedanimation\\module.simpleadvancedanimation.cpp",
+        "ProvidedModule": "",
+        "PCH": "g:\\advancedanimation\\intermediate\\build\\win64\\x64\\advancedanimationeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "g:\\advancedanimation\\plugins\\simpleadvancedanimation\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\simpleadvancedanimation\\definitions.simpleadvancedanimation.h",
+            "g:\\advancedanimation\\plugins\\simpleadvancedanimation\\intermediate\\build\\win64\\unrealeditor\\inc\\simpleadvancedanimation\\uht\\animnotifystate_stepmatching.gen.cpp",
+            "g:\\advancedanimation\\plugins\\simpleadvancedanimation\\source\\simpleadvancedanimation\\public\\animnotifystate\\animnotifystate_stepmatching.h",
+            "k:\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\animation\\animnotifies\\animnotifystate.h",
+            "k:\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\animnotifystate.generated.h",
+            "g:\\advancedanimation\\plugins\\simpleadvancedanimation\\intermediate\\build\\win64\\unrealeditor\\inc\\simpleadvancedanimation\\uht\\animnotifystate_stepmatching.generated.h",
+            "g:\\advancedanimation\\plugins\\simpleadvancedanimation\\intermediate\\build\\win64\\unrealeditor\\inc\\simpleadvancedanimation\\uht\\animnotifystate_stepmatchingspeed.gen.cpp",
+            "g:\\advancedanimation\\plugins\\simpleadvancedanimation\\source\\simpleadvancedanimation\\public\\animnotifystate\\animnotifystate_stepmatchingspeed.h",
+            "g:\\advancedanimation\\plugins\\simpleadvancedanimation\\source\\simpleadvancedanimation\\public\\simpleadvancedanimationtype.h",
+            "g:\\advancedanimation\\plugins\\simpleadvancedanimation\\intermediate\\build\\win64\\unrealeditor\\inc\\simpleadvancedanimation\\uht\\simpleadvancedanimationtype.generated.h",
+            "g:\\advancedanimation\\plugins\\simpleadvancedanimation\\intermediate\\build\\win64\\unrealeditor\\inc\\simpleadvancedanimation\\uht\\animnotifystate_stepmatchingspeed.generated.h",
+            "g:\\advancedanimation\\plugins\\simpleadvancedanimation\\intermediate\\build\\win64\\unrealeditor\\inc\\simpleadvancedanimation\\uht\\isimpleadvancedanimation.gen.cpp",
+            "g:\\advancedanimation\\plugins\\simpleadvancedanimation\\source\\simpleadvancedanimation\\public\\interface\\isimpleadvancedanimation.h",
+            "g:\\advancedanimation\\plugins\\simpleadvancedanimation\\intermediate\\build\\win64\\unrealeditor\\inc\\simpleadvancedanimation\\uht\\isimpleadvancedanimation.generated.h",
+            "g:\\advancedanimation\\plugins\\simpleadvancedanimation\\intermediate\\build\\win64\\unrealeditor\\inc\\simpleadvancedanimation\\uht\\simpleadvancedanimation.init.gen.cpp",
+            "g:\\advancedanimation\\plugins\\simpleadvancedanimation\\intermediate\\build\\win64\\unrealeditor\\inc\\simpleadvancedanimation\\uht\\simpleadvancedanimationbplibrary.gen.cpp",
+            "g:\\advancedanimation\\plugins\\simpleadvancedanimation\\source\\simpleadvancedanimation\\public\\simpleadvancedanimationbplibrary.h",
+            "g:\\advancedanimation\\plugins\\simpleadvancedanimation\\intermediate\\build\\win64\\unrealeditor\\inc\\simpleadvancedanimation\\uht\\simpleadvancedanimationbplibrary.generated.h",
+            "g:\\advancedanimation\\plugins\\simpleadvancedanimation\\intermediate\\build\\win64\\unrealeditor\\inc\\simpleadvancedanimation\\uht\\simpleadvancedanimationtype.gen.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

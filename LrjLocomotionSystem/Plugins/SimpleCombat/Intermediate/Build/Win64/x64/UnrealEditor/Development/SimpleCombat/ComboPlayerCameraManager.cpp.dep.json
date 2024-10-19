@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplecombat\\source\\simplecombat\\private\\object\\camera\\comboplayercameramanager.cpp",
+        "ProvidedModule": "",
+        "PCH": "f:\\github\\unrealengine\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplecombat\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\simplecombat\\definitions.simplecombat.h",
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplecombat\\source\\simplecombat\\public\\object\\camera\\comboplayercameramanager.h",
+            "f:\\github\\unrealengine\\engine\\source\\runtime\\engine\\classes\\camera\\cameramodifier_camerashake.h",
+            "f:\\github\\unrealengine\\engine\\source\\runtime\\engine\\classes\\camera\\cameramodifier.h",
+            "f:\\github\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\cameramodifier.generated.h",
+            "f:\\github\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\cameramodifier_camerashake.generated.h",
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplecombat\\intermediate\\build\\win64\\unrealeditor\\inc\\simplecombat\\uht\\comboplayercameramanager.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

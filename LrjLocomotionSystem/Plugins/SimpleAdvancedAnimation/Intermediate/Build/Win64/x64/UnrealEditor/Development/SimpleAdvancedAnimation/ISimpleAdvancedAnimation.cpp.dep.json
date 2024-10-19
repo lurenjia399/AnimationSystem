@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simpleadvancedanimation\\source\\simpleadvancedanimation\\public\\interface\\isimpleadvancedanimation.cpp",
+        "ProvidedModule": "",
+        "PCH": "f:\\github\\unrealengine\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simpleadvancedanimation\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\simpleadvancedanimation\\definitions.simpleadvancedanimation.h",
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simpleadvancedanimation\\source\\simpleadvancedanimation\\public\\interface\\isimpleadvancedanimation.h",
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simpleadvancedanimation\\intermediate\\build\\win64\\unrealeditor\\inc\\simpleadvancedanimation\\uht\\isimpleadvancedanimation.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

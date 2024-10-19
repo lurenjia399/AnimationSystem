@@ -1,0 +1,26 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "g:\\advancedanimation\\plugins\\simplephysicscontrolextend\\source\\simplephysicscontrolextend\\private\\core\\simplephysicscontrolbindhumanbase.cpp",
+        "ProvidedModule": "",
+        "PCH": "g:\\advancedanimation\\intermediate\\build\\win64\\x64\\advancedanimation\\development\\engine\\sharedpch.engine.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "g:\\advancedanimation\\plugins\\simplephysicscontrolextend\\intermediate\\build\\win64\\x64\\unrealgame\\development\\simplephysicscontrolextend\\definitions.simplephysicscontrolextend.h",
+            "g:\\advancedanimation\\plugins\\simplephysicscontrolextend\\source\\simplephysicscontrolextend\\public\\core\\simplephysicscontrolbindhumanbase.h",
+            "k:\\ue_5.4\\engine\\plugins\\experimental\\physicscontrol\\source\\physicscontrol\\public\\physicscontrolactor.h",
+            "k:\\ue_5.4\\engine\\plugins\\experimental\\physicscontrol\\source\\physicscontrol\\public\\physicscontroldata.h",
+            "k:\\ue_5.4\\engine\\plugins\\experimental\\physicscontrol\\intermediate\\build\\win64\\unrealgame\\inc\\physicscontrol\\uht\\physicscontroldata.generated.h",
+            "k:\\ue_5.4\\engine\\plugins\\experimental\\physicscontrol\\intermediate\\build\\win64\\unrealgame\\inc\\physicscontrol\\uht\\physicscontrolactor.generated.h",
+            "k:\\ue_5.4\\engine\\plugins\\experimental\\physicscontrol\\source\\physicscontrol\\public\\physicscontrolcomponent.h",
+            "k:\\ue_5.4\\engine\\plugins\\experimental\\physicscontrol\\source\\physicscontrol\\public\\physicscontrollimbdata.h",
+            "k:\\ue_5.4\\engine\\plugins\\experimental\\physicscontrol\\intermediate\\build\\win64\\unrealgame\\inc\\physicscontrol\\uht\\physicscontrollimbdata.generated.h",
+            "k:\\ue_5.4\\engine\\plugins\\experimental\\physicscontrol\\source\\physicscontrol\\public\\physicscontrolnamerecords.h",
+            "k:\\ue_5.4\\engine\\plugins\\experimental\\physicscontrol\\source\\physicscontrol\\public\\physicscontrolprofileasset.h",
+            "k:\\ue_5.4\\engine\\plugins\\experimental\\physicscontrol\\intermediate\\build\\win64\\unrealgame\\inc\\physicscontrol\\uht\\physicscontrolprofileasset.generated.h",
+            "k:\\ue_5.4\\engine\\plugins\\experimental\\physicscontrol\\source\\physicscontrol\\public\\physicscontrolrecord.h",
+            "k:\\ue_5.4\\engine\\plugins\\experimental\\physicscontrol\\intermediate\\build\\win64\\unrealgame\\inc\\physicscontrol\\uht\\physicscontrolcomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

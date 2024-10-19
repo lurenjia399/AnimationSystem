@@ -1,0 +1,28 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "g:\\advancedanimation\\plugins\\simplephysicscontrolextend\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\simplephysicscontrolextend\\module.simplephysicscontrolextend.cpp",
+        "ProvidedModule": "",
+        "PCH": "g:\\advancedanimation\\intermediate\\build\\win64\\x64\\advancedanimationeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "g:\\advancedanimation\\plugins\\simplephysicscontrolextend\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\simplephysicscontrolextend\\definitions.simplephysicscontrolextend.h",
+            "g:\\advancedanimation\\plugins\\simplephysicscontrolextend\\intermediate\\build\\win64\\unrealeditor\\inc\\simplephysicscontrolextend\\uht\\animnotify_controlattach.gen.cpp",
+            "g:\\advancedanimation\\plugins\\simplephysicscontrolextend\\source\\simplephysicscontrolextend\\public\\animnotify\\animnotify_controlattach.h",
+            "k:\\ue_5.4\\engine\\plugins\\experimental\\physicscontrol\\source\\physicscontrol\\public\\physicscontroldata.h",
+            "k:\\ue_5.4\\engine\\plugins\\experimental\\physicscontrol\\intermediate\\build\\win64\\unrealeditor\\inc\\physicscontrol\\uht\\physicscontroldata.generated.h",
+            "g:\\advancedanimation\\plugins\\simplephysicscontrolextend\\intermediate\\build\\win64\\unrealeditor\\inc\\simplephysicscontrolextend\\uht\\animnotify_controlattach.generated.h",
+            "g:\\advancedanimation\\plugins\\simplephysicscontrolextend\\intermediate\\build\\win64\\unrealeditor\\inc\\simplephysicscontrolextend\\uht\\animnotify_controldetach.gen.cpp",
+            "g:\\advancedanimation\\plugins\\simplephysicscontrolextend\\source\\simplephysicscontrolextend\\public\\animnotify\\animnotify_controldetach.h",
+            "g:\\advancedanimation\\plugins\\simplephysicscontrolextend\\intermediate\\build\\win64\\unrealeditor\\inc\\simplephysicscontrolextend\\uht\\animnotify_controldetach.generated.h",
+            "g:\\advancedanimation\\plugins\\simplephysicscontrolextend\\intermediate\\build\\win64\\unrealeditor\\inc\\simplephysicscontrolextend\\uht\\isimplephysicscontrolextendinterface.gen.cpp",
+            "g:\\advancedanimation\\plugins\\simplephysicscontrolextend\\source\\simplephysicscontrolextend\\public\\interface\\isimplephysicscontrolextendinterface.h",
+            "g:\\advancedanimation\\plugins\\simplephysicscontrolextend\\intermediate\\build\\win64\\unrealeditor\\inc\\simplephysicscontrolextend\\uht\\isimplephysicscontrolextendinterface.generated.h",
+            "g:\\advancedanimation\\plugins\\simplephysicscontrolextend\\intermediate\\build\\win64\\unrealeditor\\inc\\simplephysicscontrolextend\\uht\\simplephysicscontrolextend.init.gen.cpp",
+            "g:\\advancedanimation\\plugins\\simplephysicscontrolextend\\intermediate\\build\\win64\\unrealeditor\\inc\\simplephysicscontrolextend\\uht\\simplephysicscontrolextendbplibrary.gen.cpp",
+            "g:\\advancedanimation\\plugins\\simplephysicscontrolextend\\source\\simplephysicscontrolextend\\public\\simplephysicscontrolextendbplibrary.h",
+            "g:\\advancedanimation\\plugins\\simplephysicscontrolextend\\intermediate\\build\\win64\\unrealeditor\\inc\\simplephysicscontrolextend\\uht\\simplephysicscontrolextendbplibrary.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

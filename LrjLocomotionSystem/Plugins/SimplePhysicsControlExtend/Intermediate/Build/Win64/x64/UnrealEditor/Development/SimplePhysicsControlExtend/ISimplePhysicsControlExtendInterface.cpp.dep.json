@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplephysicscontrolextend\\source\\simplephysicscontrolextend\\private\\interface\\isimplephysicscontrolextendinterface.cpp",
+        "ProvidedModule": "",
+        "PCH": "f:\\github\\unrealengine\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplephysicscontrolextend\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\simplephysicscontrolextend\\definitions.simplephysicscontrolextend.h",
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplephysicscontrolextend\\source\\simplephysicscontrolextend\\public\\interface\\isimplephysicscontrolextendinterface.h",
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplephysicscontrolextend\\intermediate\\build\\win64\\unrealeditor\\inc\\simplephysicscontrolextend\\uht\\isimplephysicscontrolextendinterface.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

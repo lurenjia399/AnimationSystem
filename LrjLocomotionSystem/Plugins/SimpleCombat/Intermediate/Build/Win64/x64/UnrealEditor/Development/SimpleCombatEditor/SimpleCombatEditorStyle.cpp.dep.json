@@ -1,0 +1,25 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplecombat\\source\\simplecombateditor\\private\\simplecombateditorstyle.cpp",
+        "ProvidedModule": "",
+        "PCH": "f:\\github\\unrealengine\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplecombat\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\simplecombateditor\\definitions.simplecombateditor.h",
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplecombat\\source\\simplecombateditor\\public\\simplecombateditorstyle.h",
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplecombat\\source\\simplecombateditor\\public\\simplecombateditor.h",
+            "f:\\github\\unrealengine\\engine\\source\\runtime\\slatecore\\public\\styling\\slatestyleregistry.h",
+            "f:\\github\\unrealengine\\engine\\source\\runtime\\engine\\public\\slate\\slategameresources.h",
+            "f:\\github\\unrealengine\\engine\\source\\runtime\\projects\\public\\interfaces\\ipluginmanager.h",
+            "f:\\github\\unrealengine\\engine\\source\\runtime\\projects\\public\\plugindescriptor.h",
+            "f:\\github\\unrealengine\\engine\\source\\runtime\\projects\\public\\custombuildsteps.h",
+            "f:\\github\\unrealengine\\engine\\source\\runtime\\projects\\public\\localizationdescriptor.h",
+            "f:\\github\\unrealengine\\engine\\source\\runtime\\projects\\public\\moduledescriptor.h",
+            "f:\\github\\unrealengine\\engine\\source\\runtime\\projects\\public\\plugindisalloweddescriptor.h",
+            "f:\\github\\unrealengine\\engine\\source\\runtime\\projects\\public\\pluginreferencedescriptor.h",
+            "f:\\github\\unrealengine\\engine\\source\\runtime\\projects\\public\\versescope.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-SimpleCombatEditor.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"G:\AdvancedAnimation\Intermediate\Build\Win64\x64\AdvancedAnimationEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"G:\AdvancedAnimation\Plugins\SimpleCombat\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleCombatEditor\SimpleCombatEditor.cpp.obj"
+"G:\AdvancedAnimation\Plugins\SimpleCombat\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleCombatEditor\SimpleCombatEditorCommands.cpp.obj"
+"G:\AdvancedAnimation\Plugins\SimpleCombat\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleCombatEditor\SimpleCombatEditorStyle.cpp.obj"
+"G:\AdvancedAnimation\Plugins\SimpleCombat\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleCombatEditor\Default.rc2.res"
+/OUT:"G:\AdvancedAnimation\Plugins\SimpleCombat\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleCombatEditor\UnrealEditor-SimpleCombatEditor.lib"

@@ -20,6 +20,19 @@
 			"TargetAllowList": [
 				"Editor"
 			]
+		},
+		{
+			"Name": "SimpleAIBehaviorTreeExtend",
+			"Enabled": true
+		},
+		{
+			"Name": "SimpleGameplayAbilitiesExtend",
+			"Enabled": true
+		},
+
+		{
+			"Name": "SimpleCombat",
+			"Enabled": true
 		}
 	]
 }

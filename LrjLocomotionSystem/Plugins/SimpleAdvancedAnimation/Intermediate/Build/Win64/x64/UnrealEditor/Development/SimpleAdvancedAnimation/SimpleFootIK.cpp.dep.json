@@ -1,0 +1,31 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simpleadvancedanimation\\source\\simpleadvancedanimation\\private\\core\\element\\footik\\simplefootik.cpp",
+        "ProvidedModule": "",
+        "PCH": "f:\\github\\unrealengine\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simpleadvancedanimation\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\simpleadvancedanimation\\definitions.simpleadvancedanimation.h",
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simpleadvancedanimation\\source\\simpleadvancedanimation\\public\\core\\element\\footik\\simplefootik.h",
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simpleadvancedanimation\\source\\simpleadvancedanimation\\public\\simpleadvancedanimationtype.h",
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simpleadvancedanimation\\intermediate\\build\\win64\\unrealeditor\\inc\\simpleadvancedanimation\\uht\\simpleadvancedanimationtype.generated.h",
+            "f:\\github\\unrealengine\\engine\\source\\runtime\\engine\\classes\\components\\capsulecomponent.h",
+            "f:\\github\\unrealengine\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
+            "f:\\github\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\shapecomponent.generated.h",
+            "f:\\github\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\capsulecomponent.generated.h",
+            "f:\\github\\unrealengine\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
+            "f:\\github\\unrealengine\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
+            "f:\\github\\unrealengine\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\serialization\\irisobjectreferencepackagemap.h",
+            "f:\\github\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\iriscore\\uht\\irisobjectreferencepackagemap.generated.h",
+            "f:\\github\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\charactermovementreplication.generated.h",
+            "f:\\github\\unrealengine\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
+            "f:\\github\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rootmotionsource.generated.h",
+            "f:\\github\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h",
+            "f:\\github\\unrealengine\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetsystemlibrary.h",
+            "f:\\github\\unrealengine\\engine\\source\\runtime\\coreuobject\\public\\uobject\\propertyaccessutil.h",
+            "f:\\github\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\kismetsystemlibrary.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

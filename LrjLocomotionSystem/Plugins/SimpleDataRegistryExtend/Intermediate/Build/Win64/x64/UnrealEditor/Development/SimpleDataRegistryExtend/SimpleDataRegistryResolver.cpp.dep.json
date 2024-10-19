@@ -1,0 +1,27 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simpledataregistryextend\\source\\simpledataregistryextend\\private\\simpledataregistryresolver.cpp",
+        "ProvidedModule": "",
+        "PCH": "f:\\github\\unrealengine\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simpledataregistryextend\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\simpledataregistryextend\\definitions.simpledataregistryextend.h",
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simpledataregistryextend\\source\\simpledataregistryextend\\public\\simpledataregistryresolver.h",
+            "f:\\github\\unrealengine\\engine\\plugins\\runtime\\dataregistry\\source\\dataregistry\\public\\dataregistrytypes.h",
+            "f:\\github\\unrealengine\\engine\\plugins\\runtime\\dataregistry\\source\\dataregistry\\public\\dataregistryid.h",
+            "f:\\github\\unrealengine\\engine\\plugins\\runtime\\dataregistry\\intermediate\\build\\win64\\unrealeditor\\inc\\dataregistry\\uht\\dataregistryid.generated.h",
+            "f:\\github\\unrealengine\\engine\\source\\runtime\\gameplaytags\\classes\\gameplaytagcontainer.h",
+            "f:\\github\\unrealengine\\engine\\source\\runtime\\core\\public\\misc\\comparisonutility.h",
+            "f:\\github\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplaytags\\uht\\gameplaytagcontainer.generated.h",
+            "f:\\github\\unrealengine\\engine\\plugins\\runtime\\dataregistry\\intermediate\\build\\win64\\unrealeditor\\inc\\dataregistry\\uht\\dataregistrytypes.generated.h",
+            "f:\\github\\unrealengine\\engine\\plugins\\runtime\\dataregistry\\source\\dataregistry\\public\\dataregistrysource.h",
+            "f:\\github\\unrealengine\\engine\\plugins\\runtime\\dataregistry\\source\\dataregistry\\public\\dataregistry.h",
+            "f:\\github\\unrealengine\\engine\\plugins\\runtime\\dataregistry\\intermediate\\build\\win64\\unrealeditor\\inc\\dataregistry\\uht\\dataregistry.generated.h",
+            "f:\\github\\unrealengine\\engine\\source\\runtime\\engine\\classes\\engine\\assetmanagertypes.h",
+            "f:\\github\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\assetmanagertypes.generated.h",
+            "f:\\github\\unrealengine\\engine\\plugins\\runtime\\dataregistry\\intermediate\\build\\win64\\unrealeditor\\inc\\dataregistry\\uht\\dataregistrysource.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

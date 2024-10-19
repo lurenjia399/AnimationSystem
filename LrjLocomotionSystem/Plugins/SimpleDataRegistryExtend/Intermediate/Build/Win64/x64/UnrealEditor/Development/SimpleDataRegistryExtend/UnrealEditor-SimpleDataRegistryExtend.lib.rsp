@@ -1,0 +1,17 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-SimpleDataRegistryExtend.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"F:\GitHub\AnimationSystem\LrjLocomotionSystem\Plugins\SimpleDataRegistryExtend\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleDataRegistryExtend\SimpleDataRegistryExtend.cpp.obj"
+"F:\GitHub\AnimationSystem\LrjLocomotionSystem\Plugins\SimpleDataRegistryExtend\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleDataRegistryExtend\SimpleDataRegistryExtendBPLibrary.cpp.obj"
+"F:\GitHub\AnimationSystem\LrjLocomotionSystem\Plugins\SimpleDataRegistryExtend\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleDataRegistryExtend\SimpleDataRegistryManage.cpp.obj"
+"F:\GitHub\AnimationSystem\LrjLocomotionSystem\Plugins\SimpleDataRegistryExtend\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleDataRegistryExtend\SimpleDataRegistryResolver.cpp.obj"
+"F:\GitHub\AnimationSystem\LrjLocomotionSystem\Plugins\SimpleDataRegistryExtend\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleDataRegistryExtend\SimpleDataRegistryExtend.init.gen.cpp.obj"
+"F:\GitHub\AnimationSystem\LrjLocomotionSystem\Plugins\SimpleDataRegistryExtend\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleDataRegistryExtend\SimpleDataRegistryExtendBPLibrary.gen.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"F:\GitHub\AnimationSystem\LrjLocomotionSystem\Plugins\SimpleDataRegistryExtend\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleDataRegistryExtend\UnrealEditor-SimpleDataRegistryExtend.lib"

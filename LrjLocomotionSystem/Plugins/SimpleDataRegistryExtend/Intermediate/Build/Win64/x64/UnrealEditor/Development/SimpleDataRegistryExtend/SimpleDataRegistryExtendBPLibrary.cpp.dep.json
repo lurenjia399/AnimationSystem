@@ -1,0 +1,16 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simpledataregistryextend\\source\\simpledataregistryextend\\private\\simpledataregistryextendbplibrary.cpp",
+        "ProvidedModule": "",
+        "PCH": "f:\\github\\unrealengine\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simpledataregistryextend\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\simpledataregistryextend\\definitions.simpledataregistryextend.h",
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simpledataregistryextend\\source\\simpledataregistryextend\\public\\simpledataregistryextendbplibrary.h",
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simpledataregistryextend\\intermediate\\build\\win64\\unrealeditor\\inc\\simpledataregistryextend\\uht\\simpledataregistryextendbplibrary.generated.h",
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simpledataregistryextend\\source\\simpledataregistryextend\\public\\simpledataregistryextend.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

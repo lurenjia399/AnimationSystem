@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "g:\\advancedanimation\\plugins\\simplephysicscontrolextend\\source\\simplephysicscontrolextend\\private\\simplephysicscontrolextend.cpp",
+        "ProvidedModule": "",
+        "PCH": "g:\\advancedanimation\\intermediate\\build\\win64\\x64\\advancedanimation\\development\\engine\\sharedpch.engine.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "g:\\advancedanimation\\plugins\\simplephysicscontrolextend\\intermediate\\build\\win64\\x64\\unrealgame\\development\\simplephysicscontrolextend\\definitions.simplephysicscontrolextend.h",
+            "g:\\advancedanimation\\plugins\\simplephysicscontrolextend\\source\\simplephysicscontrolextend\\public\\simplephysicscontrolextend.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplegameplayabilitiesextend\\intermediate\\build\\win64\\unrealeditor\\inc\\simplegameplayabilitiesextend\\uht\\gameplaycuenotify_static_hit.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "f:\\github\\unrealengine\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplegameplayabilitiesextend\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\simplegameplayabilitiesextend\\definitions.simplegameplayabilitiesextend.h",
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplegameplayabilitiesextend\\source\\simplegameplayabilitiesextend\\public\\abilities\\cue\\gameplaycuenotify_static_hit.h",
+            "f:\\github\\unrealengine\\engine\\plugins\\runtime\\gameplayabilities\\source\\gameplayabilities\\public\\gameplaycuenotify_static.h",
+            "f:\\github\\unrealengine\\engine\\source\\runtime\\gameplaytags\\classes\\gameplaytagcontainer.h",
+            "f:\\github\\unrealengine\\engine\\source\\runtime\\core\\public\\misc\\comparisonutility.h",
+            "f:\\github\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplaytags\\uht\\gameplaytagcontainer.generated.h",
+            "f:\\github\\unrealengine\\engine\\plugins\\runtime\\gameplayabilities\\source\\gameplayabilities\\public\\gameplayeffecttypes.h",
+            "f:\\github\\unrealengine\\engine\\plugins\\runtime\\gameplayabilities\\source\\gameplayabilities\\public\\activegameplayeffecthandle.h",
+            "f:\\github\\unrealengine\\engine\\plugins\\runtime\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\activegameplayeffecthandle.generated.h",
+            "f:\\github\\unrealengine\\engine\\plugins\\runtime\\gameplayabilities\\source\\gameplayabilities\\public\\gameplayeffectattributecapturedefinition.h",
+            "f:\\github\\unrealengine\\engine\\plugins\\runtime\\gameplayabilities\\source\\gameplayabilities\\public\\attributeset.h",
+            "f:\\github\\unrealengine\\engine\\plugins\\runtime\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\attributeset.generated.h",
+            "f:\\github\\unrealengine\\engine\\plugins\\runtime\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\gameplayeffectattributecapturedefinition.generated.h",
+            "f:\\github\\unrealengine\\engine\\plugins\\runtime\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\gameplayeffecttypes.generated.h",
+            "f:\\github\\unrealengine\\engine\\plugins\\runtime\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\gameplaycuenotify_static.generated.h",
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplegameplayabilitiesextend\\intermediate\\build\\win64\\unrealeditor\\inc\\simplegameplayabilitiesextend\\uht\\gameplaycuenotify_static_hit.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

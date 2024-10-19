@@ -1,0 +1,21 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplecombat\\intermediate\\build\\win64\\unrealeditor\\inc\\simplecombat\\uht\\customreleasingbufftarget.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "f:\\github\\unrealengine\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplecombat\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\simplecombat\\definitions.simplecombat.h",
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplecombat\\source\\simplecombat\\public\\script\\customreleasingbufftarget.h",
+            "f:\\github\\unrealengine\\engine\\source\\runtime\\coreuobject\\public\\uobject\\noexporttypes.h",
+            "f:\\github\\unrealengine\\engine\\source\\runtime\\coreuobject\\public\\uobject\\propertyaccessutil.h",
+            "f:\\github\\unrealengine\\engine\\source\\runtime\\coreuobject\\public\\serialization\\testundeclaredscriptstructobjectreferences.h",
+            "f:\\github\\unrealengine\\engine\\source\\runtime\\core\\public\\math\\unitconversion.h",
+            "f:\\github\\unrealengine\\engine\\source\\runtime\\core\\public\\math\\unitconversion.inl",
+            "f:\\github\\unrealengine\\engine\\source\\runtime\\core\\public\\internationalization\\polyglottextdata.h",
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplecombat\\intermediate\\build\\win64\\unrealeditor\\inc\\simplecombat\\uht\\customreleasingbufftarget.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

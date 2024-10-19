@@ -1,0 +1,36 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplecombat\\source\\simplecombat\\private\\animnotifystate\\animnotifystate_computergraphics.cpp",
+        "ProvidedModule": "",
+        "PCH": "f:\\github\\unrealengine\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplecombat\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\simplecombat\\definitions.simplecombat.h",
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplecombat\\source\\simplecombat\\public\\animnotifystate\\animnotifystate_computergraphics.h",
+            "f:\\github\\unrealengine\\engine\\source\\runtime\\engine\\classes\\animation\\animnotifies\\animnotifystate.h",
+            "f:\\github\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\animnotifystate.generated.h",
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplecombat\\source\\simplecombat\\public\\simplecombotype.h",
+            "f:\\github\\unrealengine\\engine\\source\\runtime\\gameplaytags\\classes\\gameplaytagcontainer.h",
+            "f:\\github\\unrealengine\\engine\\source\\runtime\\core\\public\\misc\\comparisonutility.h",
+            "f:\\github\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplaytags\\uht\\gameplaytagcontainer.generated.h",
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplecombat\\intermediate\\build\\win64\\unrealeditor\\inc\\simplecombat\\uht\\simplecombotype.generated.h",
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplecombat\\intermediate\\build\\win64\\unrealeditor\\inc\\simplecombat\\uht\\animnotifystate_computergraphics.generated.h",
+            "f:\\github\\unrealengine\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
+            "f:\\github\\unrealengine\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
+            "f:\\github\\unrealengine\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\serialization\\irisobjectreferencepackagemap.h",
+            "f:\\github\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\iriscore\\uht\\irisobjectreferencepackagemap.generated.h",
+            "f:\\github\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\charactermovementreplication.generated.h",
+            "f:\\github\\unrealengine\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
+            "f:\\github\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rootmotionsource.generated.h",
+            "f:\\github\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h",
+            "f:\\github\\unrealengine\\engine\\source\\runtime\\engine\\classes\\camera\\cameraactor.h",
+            "f:\\github\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\cameraactor.generated.h",
+            "f:\\github\\unrealengine\\engine\\source\\runtime\\engine\\classes\\camera\\cameracomponent.h",
+            "f:\\github\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\cameracomponent.generated.h",
+            "f:\\github\\unrealengine\\engine\\source\\editor\\persona\\public\\animationeditorpreviewactor.h",
+            "f:\\github\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\persona\\uht\\animationeditorpreviewactor.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

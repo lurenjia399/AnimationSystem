@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplegameplayabilitiesextend\\source\\simplegameplayabilitiesextend\\private\\simplegameplayabilitiesextend.cpp",
+        "ProvidedModule": "",
+        "PCH": "f:\\github\\unrealengine\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplegameplayabilitiesextend\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\simplegameplayabilitiesextend\\definitions.simplegameplayabilitiesextend.h",
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplegameplayabilitiesextend\\source\\simplegameplayabilitiesextend\\public\\simplegameplayabilitiesextend.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -6,13 +6,30 @@
 
 AAzureCharacterBase::AAzureCharacterBase()
 {
-	bDie = false;
+	AttributeSet = CreateDefaultSubobject<UAzureAttributeSet>(TEXT("UAzureAttributeSet"));
+	AbilityAbilitySystemComponent = CreateDefaultSubobject<USimpleAbilitySystemComponent>(TEXT("USimpleAbilitySystemComponent"));
+	AbilityAbilitySystemComponent->SetIsReplicated(true);
+	
 	CharacterType = ECharacterType::CHARACTER_NONE;
+}
+
+void AAzureCharacterBase::BeginPlay()
+{
+	Super::BeginPlay();
+
+	TArray<UAttributeSet*> AttributeArray;
+	AttributeArray.Add(AttributeSet);
+
+	AbilityAbilitySystemComponent->SetSpawnedAttributes(AttributeArray);
 }
 
 bool AAzureCharacterBase::IsDie() const
 {
-	return bDie;
+	if (IsValid(AttributeSet))
+	{
+		return AttributeSet->Health.GetCurrentValue() <= 0.f;
+	}
+	return false;
 }
 
 ECharacterType AAzureCharacterBase::GetCharacterType() const
@@ -35,7 +52,12 @@ void AAzureCharacterBase::SAIBT_Attack(AActor* Tag)
 	GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Red, TEXT("SAIBT_AttackByUObject"));
 }
 
-void AAzureCharacterBase::SAIBT_AttackByGameplayTag(const FGameplayTag& InTag)
+void AAzureCharacterBase::HandleDamage(float DamageAmount, const FGameplayTagContainer& DamageTags,
+	AAzureCharacterBase* ActtackerPawn, AActor* ActtackerActor)
 {
-	GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Red, TEXT("SAIBT_AttackByGameplayTag"));
+}
+
+void AAzureCharacterBase::HandleHealth(AAzureCharacterBase* ActtackerPawn, AActor* ActtackerActor,
+	const FGameplayTagContainer& InTags, float HealthAmount, bool bPlayHit)
+{
 }

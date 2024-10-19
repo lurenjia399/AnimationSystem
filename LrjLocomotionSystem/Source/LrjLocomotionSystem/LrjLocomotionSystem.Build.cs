@@ -24,6 +24,9 @@ public class LrjLocomotionSystem : ModuleRules
 			"GameplayTags",
 			"GameplayTasks",
 			"LevelSequence",
+			"SimpleGameplayAbilitiesExtend",
+			"SimpleCombat"
+			
 		});
 	}
 }

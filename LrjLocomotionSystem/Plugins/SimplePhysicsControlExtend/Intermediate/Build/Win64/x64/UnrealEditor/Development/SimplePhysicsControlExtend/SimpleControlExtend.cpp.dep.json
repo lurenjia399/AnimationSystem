@@ -1,0 +1,27 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplephysicscontrolextend\\source\\simplephysicscontrolextend\\private\\extend\\simplecontrolextend.cpp",
+        "ProvidedModule": "",
+        "PCH": "f:\\github\\unrealengine\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplephysicscontrolextend\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\simplephysicscontrolextend\\definitions.simplephysicscontrolextend.h",
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplephysicscontrolextend\\source\\simplephysicscontrolextend\\public\\extend\\simplecontrolextend.h",
+            "f:\\github\\animationsystem\\lrjlocomotionsystem\\plugins\\simplephysicscontrolextend\\source\\simplephysicscontrolextend\\public\\core\\simplephysicscontrolbindhumanbase.h",
+            "f:\\github\\unrealengine\\engine\\plugins\\experimental\\physicscontrol\\source\\physicscontrol\\public\\physicscontrolactor.h",
+            "f:\\github\\unrealengine\\engine\\plugins\\experimental\\physicscontrol\\source\\physicscontrol\\public\\physicscontroldata.h",
+            "f:\\github\\unrealengine\\engine\\plugins\\experimental\\physicscontrol\\intermediate\\build\\win64\\unrealeditor\\inc\\physicscontrol\\uht\\physicscontroldata.generated.h",
+            "f:\\github\\unrealengine\\engine\\plugins\\experimental\\physicscontrol\\intermediate\\build\\win64\\unrealeditor\\inc\\physicscontrol\\uht\\physicscontrolactor.generated.h",
+            "f:\\github\\unrealengine\\engine\\plugins\\experimental\\physicscontrol\\source\\physicscontrol\\public\\physicscontrolcomponent.h",
+            "f:\\github\\unrealengine\\engine\\plugins\\experimental\\physicscontrol\\source\\physicscontrol\\public\\physicscontrollimbdata.h",
+            "f:\\github\\unrealengine\\engine\\plugins\\experimental\\physicscontrol\\intermediate\\build\\win64\\unrealeditor\\inc\\physicscontrol\\uht\\physicscontrollimbdata.generated.h",
+            "f:\\github\\unrealengine\\engine\\plugins\\experimental\\physicscontrol\\source\\physicscontrol\\public\\physicscontrolnamerecords.h",
+            "f:\\github\\unrealengine\\engine\\plugins\\experimental\\physicscontrol\\source\\physicscontrol\\public\\physicscontrolprofileasset.h",
+            "f:\\github\\unrealengine\\engine\\plugins\\experimental\\physicscontrol\\intermediate\\build\\win64\\unrealeditor\\inc\\physicscontrol\\uht\\physicscontrolprofileasset.generated.h",
+            "f:\\github\\unrealengine\\engine\\plugins\\experimental\\physicscontrol\\source\\physicscontrol\\public\\physicscontrolrecord.h",
+            "f:\\github\\unrealengine\\engine\\plugins\\experimental\\physicscontrol\\intermediate\\build\\win64\\unrealeditor\\inc\\physicscontrol\\uht\\physicscontrolcomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
