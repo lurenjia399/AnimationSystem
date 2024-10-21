@@ -1,11 +1,11 @@
-"G:\AdvancedAnimation\Plugins\SimpleCombat\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleCombat\Module.SimpleCombat.1.cpp"
-/FI"G:\AdvancedAnimation\Intermediate\Build\Win64\x64\AdvancedAnimationEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
-/FI"G:\AdvancedAnimation\Plugins\SimpleCombat\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleCombat\Definitions.SimpleCombat.h"
-/Yu"G:\AdvancedAnimation\Intermediate\Build\Win64\x64\AdvancedAnimationEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
-/Fp"G:\AdvancedAnimation\Intermediate\Build\Win64\x64\AdvancedAnimationEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.pch"
-/Fo"G:\AdvancedAnimation\Plugins\SimpleCombat\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleCombat\Module.SimpleCombat.1.cpp.obj"
-/sourceDependencies "G:\AdvancedAnimation\Plugins\SimpleCombat\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleCombat\Module.SimpleCombat.1.cpp.dep.json"
-@"G:\AdvancedAnimation\Plugins\SimpleCombat\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleCombat\SimpleCombat.Shared.rsp"
+"F:\GitHub\AnimationSystem\LrjLocomotionSystem\Plugins\SimpleCombat\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleCombat\Module.SimpleCombat.1.cpp"
+/FI"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
+/FI"F:\GitHub\AnimationSystem\LrjLocomotionSystem\Plugins\SimpleCombat\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleCombat\Definitions.SimpleCombat.h"
+/Yu"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
+/Fp"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.pch"
+/Fo"F:\GitHub\AnimationSystem\LrjLocomotionSystem\Plugins\SimpleCombat\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleCombat\Module.SimpleCombat.1.cpp.obj"
+/sourceDependencies "F:\GitHub\AnimationSystem\LrjLocomotionSystem\Plugins\SimpleCombat\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleCombat\Module.SimpleCombat.1.cpp.dep.json"
+@"F:\GitHub\AnimationSystem\LrjLocomotionSystem\Plugins\SimpleCombat\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleCombat\SimpleCombat.Shared.rsp"
 /Zc:inline
 /nologo
 /Oi

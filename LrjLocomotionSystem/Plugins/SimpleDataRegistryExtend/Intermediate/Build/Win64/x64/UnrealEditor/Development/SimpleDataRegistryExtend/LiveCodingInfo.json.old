@@ -1,13 +1,5 @@
 {
 	"RemapUnityFiles": 
 	{
-		"Module.SimpleDataRegistryExtend.cpp.obj": [
-			"SimpleDataRegistryExtend.init.gen.cpp.obj",
-			"SimpleDataRegistryExtendBPLibrary.gen.cpp.obj",
-			"SimpleDataRegistryExtend.cpp.obj",
-			"SimpleDataRegistryExtendBPLibrary.cpp.obj",
-			"SimpleDataRegistryManage.cpp.obj",
-			"SimpleDataRegistryResolver.cpp.obj"
-		]
 	}
 }

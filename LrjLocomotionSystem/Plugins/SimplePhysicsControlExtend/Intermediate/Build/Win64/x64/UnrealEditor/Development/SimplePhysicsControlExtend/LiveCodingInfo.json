@@ -1,5 +1,20 @@
 {
 	"RemapUnityFiles": 
 	{
+		"Module.SimplePhysicsControlExtend.cpp.obj": [
+			"AnimNotify_ControlAttach.gen.cpp.obj",
+			"AnimNotify_ControlDetach.gen.cpp.obj",
+			"ISimplePhysicsControlExtendInterface.gen.cpp.obj",
+			"SimplePhysicsControlExtend.init.gen.cpp.obj",
+			"SimplePhysicsControlExtendBPLibrary.gen.cpp.obj",
+			"AnimNotify_ControlAttach.cpp.obj",
+			"AnimNotify_ControlDetach.cpp.obj",
+			"SimplePhysicsControlBindHumanBase.cpp.obj",
+			"SimplePhysicsControlCoreMethods.cpp.obj",
+			"SimpleControlExtend.cpp.obj",
+			"ISimplePhysicsControlExtendInterface.cpp.obj",
+			"SimplePhysicsControlExtend.cpp.obj",
+			"SimplePhysicsControlExtendBPLibrary.cpp.obj"
+		]
 	}
 }

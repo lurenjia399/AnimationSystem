@@ -1,11 +1,11 @@
-"G:\AdvancedAnimation\Plugins\SimpleDataRegistryExtend\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleDataRegistryExtend\Module.SimpleDataRegistryExtend.cpp"
-/FI"G:\AdvancedAnimation\Intermediate\Build\Win64\x64\AdvancedAnimationEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
-/FI"G:\AdvancedAnimation\Plugins\SimpleDataRegistryExtend\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleDataRegistryExtend\Definitions.SimpleDataRegistryExtend.h"
-/Yu"G:\AdvancedAnimation\Intermediate\Build\Win64\x64\AdvancedAnimationEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
-/Fp"G:\AdvancedAnimation\Intermediate\Build\Win64\x64\AdvancedAnimationEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.pch"
-/Fo"G:\AdvancedAnimation\Plugins\SimpleDataRegistryExtend\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleDataRegistryExtend\Module.SimpleDataRegistryExtend.cpp.obj"
-/sourceDependencies "G:\AdvancedAnimation\Plugins\SimpleDataRegistryExtend\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleDataRegistryExtend\Module.SimpleDataRegistryExtend.cpp.dep.json"
-@"G:\AdvancedAnimation\Plugins\SimpleDataRegistryExtend\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleDataRegistryExtend\SimpleDataRegistryExtend.Shared.rsp"
+"F:\GitHub\AnimationSystem\LrjLocomotionSystem\Plugins\SimpleDataRegistryExtend\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleDataRegistryExtend\Module.SimpleDataRegistryExtend.cpp"
+/FI"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
+/FI"F:\GitHub\AnimationSystem\LrjLocomotionSystem\Plugins\SimpleDataRegistryExtend\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleDataRegistryExtend\Definitions.SimpleDataRegistryExtend.h"
+/Yu"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
+/Fp"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.pch"
+/Fo"F:\GitHub\AnimationSystem\LrjLocomotionSystem\Plugins\SimpleDataRegistryExtend\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleDataRegistryExtend\Module.SimpleDataRegistryExtend.cpp.obj"
+/sourceDependencies "F:\GitHub\AnimationSystem\LrjLocomotionSystem\Plugins\SimpleDataRegistryExtend\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleDataRegistryExtend\Module.SimpleDataRegistryExtend.cpp.dep.json"
+@"F:\GitHub\AnimationSystem\LrjLocomotionSystem\Plugins\SimpleDataRegistryExtend\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleDataRegistryExtend\SimpleDataRegistryExtend.Shared.rsp"
 /Zc:inline
 /nologo
 /Oi

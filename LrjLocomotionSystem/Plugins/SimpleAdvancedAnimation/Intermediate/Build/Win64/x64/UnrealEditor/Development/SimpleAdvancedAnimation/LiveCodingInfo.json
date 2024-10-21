@@ -1,5 +1,24 @@
 {
 	"RemapUnityFiles": 
 	{
+		"Module.SimpleAdvancedAnimation.cpp.obj": [
+			"AnimNotifyState_StepMatching.gen.cpp.obj",
+			"AnimNotifyState_StepMatchingSpeed.gen.cpp.obj",
+			"ISimpleAdvancedAnimation.gen.cpp.obj",
+			"SimpleAdvancedAnimation.init.gen.cpp.obj",
+			"SimpleAdvancedAnimationBPLibrary.gen.cpp.obj",
+			"SimpleAdvancedAnimationType.gen.cpp.obj",
+			"AnimNotifyState_StepMatching.cpp.obj",
+			"AnimNotifyState_StepMatchingSpeed.cpp.obj",
+			"SimpleFootIK.cpp.obj",
+			"SimpleFootIKSystem.cpp.obj",
+			"SimpleMantleCheck.cpp.obj",
+			"SimpleMantleCheckSystem.cpp.obj",
+			"SimpleAdvancedAnimSystem.cpp.obj",
+			"SimpleAdvancedAnimation.cpp.obj",
+			"SimpleAdvancedAnimationBPLibrary.cpp.obj",
+			"SimpleAdvancedAnimationType.cpp.obj",
+			"ISimpleAdvancedAnimation.cpp.obj"
+		]
 	}
 }

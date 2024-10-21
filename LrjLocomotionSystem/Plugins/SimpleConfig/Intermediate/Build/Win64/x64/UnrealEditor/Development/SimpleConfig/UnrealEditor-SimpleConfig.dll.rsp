@@ -36,12 +36,7 @@
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN:6
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\CoreUObject\SharedPCH.CoreUObject.Project.ValApi.Cpp20.h.obj"
-"F:\GitHub\AnimationSystem\LrjLocomotionSystem\Plugins\SimpleConfig\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleConfig\SimpleConfig.cpp.obj"
-"F:\GitHub\AnimationSystem\LrjLocomotionSystem\Plugins\SimpleConfig\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleConfig\SimpleConfigBPLibrary.cpp.obj"
-"F:\GitHub\AnimationSystem\LrjLocomotionSystem\Plugins\SimpleConfig\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleConfig\SimpleConfigMacro.cpp.obj"
-"F:\GitHub\AnimationSystem\LrjLocomotionSystem\Plugins\SimpleConfig\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleConfig\SimpleConfigType.cpp.obj"
-"F:\GitHub\AnimationSystem\LrjLocomotionSystem\Plugins\SimpleConfig\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleConfig\SimpleConfig.init.gen.cpp.obj"
-"F:\GitHub\AnimationSystem\LrjLocomotionSystem\Plugins\SimpleConfig\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleConfig\SimpleConfigBPLibrary.gen.cpp.obj"
+"F:\GitHub\AnimationSystem\LrjLocomotionSystem\Plugins\SimpleConfig\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleConfig\Module.SimpleConfig.cpp.obj"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\CoreUObject\UnrealEditor-CoreUObject.lib"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Core\UnrealEditor-Core.lib"
