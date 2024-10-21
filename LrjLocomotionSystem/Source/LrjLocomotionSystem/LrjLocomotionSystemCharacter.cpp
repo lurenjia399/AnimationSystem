@@ -89,6 +89,12 @@ void ALrjLocomotionSystemCharacter::SetupPlayerInputComponent(UInputComponent* P
 
 		// Looking
 		EnhancedInputComponent->BindAction(LookAction, ETriggerEvent::Triggered, this, &ALrjLocomotionSystemCharacter::Look);
+
+		// Mouse
+		EnhancedInputComponent->BindAction(LeftMouseAction, ETriggerEvent::Started, this, &ALrjLocomotionSystemCharacter::LeftMouse);
+		EnhancedInputComponent->BindAction(LeftMouseAction, ETriggerEvent::Completed, this, &ALrjLocomotionSystemCharacter::OnReleasedMouseLeft);
+		EnhancedInputComponent->BindAction(RightMouseAction, ETriggerEvent::Started, this, &ALrjLocomotionSystemCharacter::RightMouse);
+		EnhancedInputComponent->BindAction(RightMouseAction, ETriggerEvent::Completed, this, &ALrjLocomotionSystemCharacter::OnReleasedMouseRight);
 	}
 	else
 	{
@@ -129,5 +135,69 @@ void ALrjLocomotionSystemCharacter::Look(const FInputActionValue& Value)
 		// add yaw and pitch input to controller
 		AddControllerYawInput(LookAxisVector.X);
 		AddControllerPitchInput(LookAxisVector.Y);
+	}
+}
+
+void ALrjLocomotionSystemCharacter::LeftMouse(const FInputActionValue& Value)
+{
+	GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Red, TEXT("LeftMouse"));
+
+	if (const FCharacterSkillTable* InCharacterSkillTable = GetSkillTable())
+	{
+		if (InCharacterSkillTable->LeftMouseSkill)
+		{
+			if (UGameplayAbility* InGameplayAbility = Cast<UGameplayAbility>(InCharacterSkillTable->LeftMouseSkill->GetDefaultObject()))
+			{
+				GetFightComponent()->Press(InGameplayAbility->AbilityTags.First());
+				//GetFightComponent()->ExecuteGameplayAbility(InGameplayAbility->AbilityTags.First());
+			}
+		}
+	}
+}
+
+void ALrjLocomotionSystemCharacter::OnReleasedMouseLeft(const FInputActionValue& Value)
+{
+	if (const FCharacterSkillTable* InCharacterSkillTable = GetSkillTable())
+	{
+		if (InCharacterSkillTable->LeftMouseSkill)
+		{
+			if (UGameplayAbility* InGameplayAbility = Cast<UGameplayAbility>(InCharacterSkillTable->LeftMouseSkill->GetDefaultObject()))
+			{
+				GetFightComponent()->Released(InGameplayAbility->AbilityTags.First());
+			}
+		}
+	}
+}
+
+
+
+void ALrjLocomotionSystemCharacter::RightMouse(const FInputActionValue& Value)
+{
+	GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Red, TEXT("RightMouse"));
+
+	if (const FCharacterSkillTable* InCharacterSkillTable = GetSkillTable())
+	{
+		if (InCharacterSkillTable->RightMouseSkill)
+		{
+			if (UGameplayAbility* InGameplayAbility = Cast<UGameplayAbility>(InCharacterSkillTable->RightMouseSkill->GetDefaultObject()))
+			{
+				GetFightComponent()->Press(InGameplayAbility->AbilityTags.First());
+				//GetFightComponent()->ExecuteGameplayAbility(InGameplayAbility->AbilityTags.First());
+			}
+		}
+	}
+}
+
+void ALrjLocomotionSystemCharacter::OnReleasedMouseRight(const FInputActionValue& Value)
+{
+	if (const FCharacterSkillTable* InCharacterSkillTable = GetSkillTable())
+	{
+		if (InCharacterSkillTable->RightMouseSkill)
+		{
+			if (UGameplayAbility* InGameplayAbility = Cast<UGameplayAbility>(InCharacterSkillTable->RightMouseSkill->GetDefaultObject()))
+			{
+				GetFightComponent()->Released(InGameplayAbility->AbilityTags.First());
+			}
+		}
 	}
 }

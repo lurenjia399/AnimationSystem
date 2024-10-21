@@ -18,6 +18,9 @@ public class LrjLocomotionSystem : ModuleRules
 			"EnhancedInput", 
 			"AIModule",
 			"SimpleAIBehaviorTreeExtend",
+			"SimpleCombat",
+			"SimpleDataRegistryExtend",
+			"DataRegistry",
 			
 			//GAS
 			"GameplayAbilities",
@@ -25,7 +28,6 @@ public class LrjLocomotionSystem : ModuleRules
 			"GameplayTasks",
 			"LevelSequence",
 			"SimpleGameplayAbilitiesExtend",
-			"SimpleCombat"
 			
 		});
 	}

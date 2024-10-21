@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "AttributeSet.h"
 #include "Abilities/SimpleGameplayAbilityMacros.h"
+#include "LrjLocomotionSystem/DataTable/CharacterAttributeTable.h"
 #include "AzureAttributeSet.generated.h"
 
 /**
@@ -25,6 +26,10 @@ public:
 	virtual void PostGameplayEffectExecute(const FGameplayEffectModCallbackData& Data) override;
 	// 有同步的属性需要重写
 	virtual void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
+	// 注册属性
+	virtual void RegistrationProperties(const FCharacterAttributeTable* Data);
+protected:
+	void RegistrationParam(FGameplayAttributeData& InAttributeData, float InValue);
 public:
 	UFUNCTION()
 	void OnRep_Health(const FGameplayAttributeData& OldValue);

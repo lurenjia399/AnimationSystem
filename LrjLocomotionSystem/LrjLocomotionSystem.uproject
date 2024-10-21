@@ -29,9 +29,12 @@
 			"Name": "SimpleGameplayAbilitiesExtend",
 			"Enabled": true
 		},
-
 		{
 			"Name": "SimpleCombat",
+			"Enabled": true
+		},
+		{
+			"Name": "SimpleDataRegistryExtend",
 			"Enabled": true
 		}
 	]

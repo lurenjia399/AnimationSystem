@@ -45,6 +45,14 @@ class ALrjLocomotionSystemCharacter : public AAzureCharacterBase
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
 	UInputAction* LookAction;
 
+	/** LeftMouse Input Action */
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
+	UInputAction* LeftMouseAction;
+
+	/** RightMouse Input Action */
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
+	UInputAction* RightMouseAction;
+
 public:
 	ALrjLocomotionSystemCharacter();
 	
@@ -56,6 +64,16 @@ protected:
 
 	/** Called for looking input */
 	void Look(const FInputActionValue& Value);
+	
+	/** Called for LeftMouse input */
+	void LeftMouse(const FInputActionValue& Value);
+	void OnReleasedMouseLeft(const FInputActionValue& Value);
+	
+	/** Called for RightMouse input */
+	void RightMouse(const FInputActionValue& Value);
+	void OnReleasedMouseRight(const FInputActionValue& Value);
+	
+	
 			
 
 protected:

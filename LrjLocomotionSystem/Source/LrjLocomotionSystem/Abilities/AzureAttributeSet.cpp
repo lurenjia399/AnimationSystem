@@ -127,6 +127,20 @@ void UAzureAttributeSet::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& O
 	DOREPLIFETIME(UAzureAttributeSet, PhysicsDefense);
 }
 
+void UAzureAttributeSet::RegistrationProperties(const FCharacterAttributeTable* Data)
+{
+	RegistrationParam(Health, Data->Health);
+	RegistrationParam(MaxHealth, Data->Health);
+	RegistrationParam(PhysicsAttack, Data->PhysicsAttack);
+	RegistrationParam(PhysicsDefense, Data->PhysicsDefense);
+}
+
+void UAzureAttributeSet::RegistrationParam(FGameplayAttributeData& InAttributeData, float InValue)
+{
+	InAttributeData.SetBaseValue(InValue);
+	InAttributeData.SetCurrentValue(InValue);
+}
+
 void UAzureAttributeSet::OnRep_Health(const FGameplayAttributeData& OldValue)
 {
 	CHECK_OWNING_ASC_GAMEPLAYATTRIBUTE_REPNOTIFY(UAzureAttributeSet, Health, OldValue, TEXT("OnRep_Health Error"));
