@@ -31,6 +31,9 @@ public:
 public:
 	UPROPERTY(EditDefaultsOnly, Category = "Character|Defaults")
 	ECharacterType CharacterType;
+	
+	UPROPERTY(EditDefaultsOnly, Category = "Character|Defaults")
+	TObjectPtr<USkeletalMeshComponent> AnimBPMesh; 
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Character|Ability")
 	TObjectPtr<UAzureAttributeSet> AttributeSet;
@@ -40,6 +43,8 @@ public:
 	
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly,  Category = "Character|Ability")
 	TObjectPtr<UFightComponent> FightComponent;
+
+	
 
 	// 使用DataTable的索引。monster是2，hostplayer是1
 	UPROPERTY(EditDefaultsOnly,  Category = "Character")

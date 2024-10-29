@@ -8,6 +8,14 @@
 
 AAzureCharacterBase::AAzureCharacterBase()
 {
+	AnimBPMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("USkeletalMeshComponent"));
+	AnimBPMesh->SetupAttachment(GetMesh());
+	
+	GetMesh()->SetCollisionEnabled(ECollisionEnabled::Type::NoCollision);
+	GetMesh()->SetVisibility(false);
+	GetMesh()->SetHiddenInGame(true);
+	GetMesh()->VisibilityBasedAnimTickOption = EVisibilityBasedAnimTickOption::AlwaysTickPoseAndRefreshBones;
+	
 	AttributeSet = CreateDefaultSubobject<UAzureAttributeSet>(TEXT("UAzureAttributeSet"));
 	AbilitySystemComponent = CreateDefaultSubobject<USimpleAbilitySystemComponent>(TEXT("USimpleAbilitySystemComponent"));
 	AbilitySystemComponent->SetIsReplicated(true);
