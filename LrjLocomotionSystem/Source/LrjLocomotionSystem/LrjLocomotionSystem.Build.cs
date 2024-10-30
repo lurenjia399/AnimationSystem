@@ -29,6 +29,9 @@ public class LrjLocomotionSystem : ModuleRules
 			"LevelSequence",
 			"SimpleGameplayAbilitiesExtend",
 			
+			//Anim
+			"IKRig"
+			
 		});
 	}
 }

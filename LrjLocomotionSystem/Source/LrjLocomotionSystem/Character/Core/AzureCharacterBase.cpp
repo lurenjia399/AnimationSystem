@@ -58,6 +58,9 @@ void AAzureCharacterBase::BeginPlay()
 			}
 		}
 	}
+
+	// 动画
+	AnimBPMesh->AddTickPrerequisiteComponent(GetMesh());
 }
 
 
