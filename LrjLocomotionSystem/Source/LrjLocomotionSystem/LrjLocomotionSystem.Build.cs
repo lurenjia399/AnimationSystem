@@ -30,7 +30,8 @@ public class LrjLocomotionSystem : ModuleRules
 			"SimpleGameplayAbilitiesExtend",
 			
 			//Anim
-			"IKRig"
+			"IKRig",
+			"MotionTrajectory"
 			
 		});
 	}

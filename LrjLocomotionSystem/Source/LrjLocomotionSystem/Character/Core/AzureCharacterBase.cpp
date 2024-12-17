@@ -3,6 +3,7 @@
 
 #include "LrjLocomotionSystem/Character/Core/AzureCharacterBase.h"
 #include "SimpleDataRegistryManage.h"
+#include "../../../../../../UnrealEngine/Engine/Plugins/Experimental/Animation/MotionTrajectory/Source/MotionTrajectory/Public/CharacterTrajectoryComponent.h"
 #include "LrjLocomotionSystem/DataRegistry/DataRegistryName.h"
 
 
@@ -22,6 +23,8 @@ AAzureCharacterBase::AAzureCharacterBase()
 
 	FightComponent = CreateDefaultSubobject<UFightComponent>(TEXT("FightComponent"));
 	FightComponent->SetIsReplicated(true);
+
+	CharacterTrajectory = CreateDefaultSubobject<UCharacterTrajectoryComponent>(TEXT("UCharacterTrajectoryComponent"));
 	
 	CharacterType = ECharacterType::CHARACTER_NONE;
 	DataTableIndex = INDEX_NONE;
@@ -126,6 +129,11 @@ FSimpleComboCheck* AAzureCharacterBase::GetSimpleComboInfo(const FGameplayTag& I
 bool AAzureCharacterBase::ComboAttackByGameplayTag(const FGameplayTag& InKey)
 {
 	return FightComponent->ExecuteGameplayAbility(InKey);
+}
+
+UCharacterTrajectoryComponent* AAzureCharacterBase::GetCharacterTrajectoryComponent() const
+{
+	return CharacterTrajectory;
 }
 
 void AAzureCharacterBase::HandleDamage(float DamageAmount, const FGameplayTagContainer& DamageTags,

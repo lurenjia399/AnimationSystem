@@ -13,6 +13,7 @@
 #include "LrjLocomotionSystem/DataTable/CharacterDataTableHead.h"
 #include "AzureCharacterBase.generated.h"
 
+class UCharacterTrajectoryComponent;
 /**
  * 
  */
@@ -44,6 +45,9 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly,  Category = "Character|Ability")
 	TObjectPtr<UFightComponent> FightComponent;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly,  Category = "Trajectory")
+	TObjectPtr<UCharacterTrajectoryComponent> CharacterTrajectory;
+
 	
 
 	// 使用DataTable的索引。monster是2，hostplayer是1
@@ -65,6 +69,9 @@ public:
 	virtual FSimpleComboCheck* GetSimpleComboInfo(const FGameplayTag& InKey) override;
 	virtual bool ComboAttackByGameplayTag(const FGameplayTag& InKey) override;
 	FORCEINLINE UFightComponent *GetFightComponent() const { return FightComponent; }
+
+	UFUNCTION(BlueprintPure, Category="Trajectory", meta=(BlueprintThreadSafe))
+	UCharacterTrajectoryComponent* GetCharacterTrajectoryComponent() const;
 public:
 	FORCEINLINE TObjectPtr<UAzureAttributeSet> GetAttribute()const { return AttributeSet; }
 	/* 伤害数值，伤害Tag，造成伤害的角色，造成伤害的具体Actor（枪，刀，剑）*/
