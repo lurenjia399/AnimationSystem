@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Animation/AnimInstance.h"
+#include "LrjLocomotionSystem/LrjLocomotionSystemCharacter.h"
 #include "AzureAnimInstanceBase.generated.h"
 
 class UCharacterTrajectoryComponent;
@@ -22,5 +23,11 @@ public:
 public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly,  Category = "Trajectory")
 	UCharacterTrajectoryComponent* CharacterTrajectory;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite,  Category = "Setting")
+	bool bEnablePredictIK = false;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+	FCharacterMovementData MovementData;
 };
  

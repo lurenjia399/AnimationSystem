@@ -63,6 +63,22 @@ void ALrjLocomotionSystemCharacter::BeginPlay()
 	Super::BeginPlay();
 }
 
+void ALrjLocomotionSystemCharacter::Tick(float DeltaSeconds)
+{
+	Super::Tick(DeltaSeconds);
+	
+	FVector Velocity = GetVelocity();
+	MovementData.Acceleration = (Velocity - MovementData.PreviousVelocity) / DeltaSeconds;
+	MovementData.Speed = FVector(Velocity.X, Velocity.Y, 0.f).Length();
+	MovementData.bIsMoving = MovementData.Speed > 1.f;
+
+	FVector CurAcceleration = GetCharacterMovement()->GetCurrentAcceleration();
+	float MaxAcceleration = GetCharacterMovement()->GetMaxAcceleration();
+	
+	MovementData.MovementInputAmount = CurAcceleration.Length() / MaxAcceleration;
+	MovementData.bHasMovementInput = MovementData.MovementInputAmount > 0.f;
+}
+
 //////////////////////////////////////////////////////////////////////////
 // Input
 

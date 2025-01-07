@@ -8,6 +8,7 @@
 UAzureAnimInstanceBase::UAzureAnimInstanceBase()
 {
 	CharacterTrajectory = nullptr;
+	bEnablePredictIK = false;
 }
 
 void UAzureAnimInstanceBase::NativeInitializeAnimation()
@@ -23,5 +24,10 @@ void UAzureAnimInstanceBase::NativeInitializeAnimation()
 void UAzureAnimInstanceBase::NativeUpdateAnimation(float DeltaSeconds)
 {
 	Super::NativeUpdateAnimation(DeltaSeconds);
-	
+
+	if(APawn* Pawn = TryGetPawnOwner())
+	{
+		ALrjLocomotionSystemCharacter* Character = Cast<ALrjLocomotionSystemCharacter>(Pawn);
+		MovementData = Character->MovementData;
+	}
 }
