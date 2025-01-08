@@ -31,7 +31,9 @@ public class LrjLocomotionSystem : ModuleRules
 			
 			//Anim
 			"IKRig",
-			"MotionTrajectory"
+			"MotionTrajectory",
+			"AnimationModifiers",
+			"AnimationBlueprintLibrary"
 			
 		});
 	}
