@@ -11,23 +11,23 @@ struct FUUOdinPredictIKAnimModifier_CurveSetting
 {
 	GENERATED_BODY()
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "setting")
-	FName RootBoneName;//根骨骼
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Odin")
+	FName RootBoneName;//root
 	
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "setting")
-	FName BoneName;//判定放脚的骨骼
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Odin")
+	FName BoneName;//ball_l
 	
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "setting")
-	FName CurveName = "FootDownTime";//曲线名称的后缀
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Odin")
+	FName CurveName = "FootDownTime";
 	
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "setting")
-	FVector2D UpThreshold = FVector2D(0, 0);// 抬脚的判定范围
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Odin")
+	FVector2D UpThreshold = FVector2D(8.2, 10);// 8,10
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "setting")
-	FVector2D DownThreshold = FVector2D(0, 0);//放脚的判定范围
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Odin")
+	FVector2D DownThreshold = FVector2D(4.5, 4.21);//4.5
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "setting")
-	bool FirstKeyUp = false;//动画中是不是先抬脚
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Odin")
+	bool FirstKeyUp = false;
 };
 
 UCLASS()
@@ -40,7 +40,9 @@ public:
 	virtual void OnApply_Implementation(UAnimSequence* AnimationSequence) override;
 	virtual void OnRevert_Implementation(UAnimSequence* AnimationSequence) override;
 
+	void AddAllCurve(UAnimSequence* AnimationSequence);
 	void RemoveAllCurve(UAnimSequence* AnimationSequence);
+	void MakeCurveName();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Odin")
 	TArray<FUUOdinPredictIKAnimModifier_CurveSetting> Setting;

@@ -129,10 +129,14 @@ void UAzureAttributeSet::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& O
 
 void UAzureAttributeSet::RegistrationProperties(const FCharacterAttributeTable* Data)
 {
-	RegistrationParam(Health, Data->Health);
-	RegistrationParam(MaxHealth, Data->Health);
-	RegistrationParam(PhysicsAttack, Data->PhysicsAttack);
-	RegistrationParam(PhysicsDefense, Data->PhysicsDefense);
+	if(Data)
+	{
+		RegistrationParam(Health, Data->Health);
+		RegistrationParam(MaxHealth, Data->Health);
+		RegistrationParam(PhysicsAttack, Data->PhysicsAttack);
+		RegistrationParam(PhysicsDefense, Data->PhysicsDefense);
+	}
+	
 }
 
 void UAzureAttributeSet::RegistrationParam(FGameplayAttributeData& InAttributeData, float InValue)
