@@ -28,6 +28,9 @@ void UAzureAnimInstanceBase::NativeUpdateAnimation(float DeltaSeconds)
 	if(APawn* Pawn = TryGetPawnOwner())
 	{
 		ALrjLocomotionSystemCharacter* Character = Cast<ALrjLocomotionSystemCharacter>(Pawn);
-		MovementData = Character->MovementData;
+		if(IsValid(Character))
+		{
+			MovementData = Character->MovementData;
+		}
 	}
 }
