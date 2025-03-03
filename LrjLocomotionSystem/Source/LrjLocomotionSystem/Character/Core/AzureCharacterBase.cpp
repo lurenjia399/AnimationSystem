@@ -111,6 +111,11 @@ void AAzureCharacterBase::SAIBT_Attack(AActor* Tag)
 	GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Red, TEXT("SAIBT_AttackByUObject"));
 }
 
+void AAzureCharacterBase::SAIBT_AttackByGameplayTag(const FGameplayTag& InTag)
+{
+	ComboAttackByGameplayTag(InTag);
+}
+
 UAbilitySystemComponent* AAzureCharacterBase::GetAbilitySystemComponent() const
 {
 	if(IsValid(AbilitySystemComponent))

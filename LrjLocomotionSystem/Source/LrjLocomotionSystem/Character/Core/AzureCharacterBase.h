@@ -61,9 +61,11 @@ public:
 public:
 	virtual bool IsDie() const override;
 	virtual ECharacterType GetCharacterType() const override;
+	// 黑板执行的攻击
 	virtual void SAIBT_Attack(FName Tag) override;
 	virtual void SAIBT_Attack(int32 Tag) override;
 	virtual void SAIBT_Attack(AActor *Tag) override;
+	virtual void SAIBT_AttackByGameplayTag(const FGameplayTag& InTag) override;
 
 	virtual UAbilitySystemComponent* GetAbilitySystemComponent() const override;
 	virtual FSimpleComboCheck* GetSimpleComboInfo(const FGameplayTag& InKey) override;
