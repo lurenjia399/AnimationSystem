@@ -48,7 +48,14 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly,  Category = "Trajectory")
 	TObjectPtr<UCharacterTrajectoryComponent> CharacterTrajectory;
 
+	UPROPERTY(EditDefaultsOnly, Category="Character")
+	int32 BeHurtID;
 	
+	UPROPERTY(EditDefaultsOnly, Category="Character")
+	int32 AccumulatedHurts;
+	
+	UPROPERTY(EditDefaultsOnly, Category="Character")
+	int32 MaxAccumulatedHurts;
 
 	// 使用DataTable的索引。monster是2，hostplayer是1
 	UPROPERTY(EditDefaultsOnly,  Category = "Character")
@@ -71,6 +78,7 @@ public:
 	virtual FSimpleComboCheck* GetSimpleComboInfo(const FGameplayTag& InKey) override;
 	virtual bool ComboAttackByGameplayTag(const FGameplayTag& InKey) override;
 	FORCEINLINE UFightComponent *GetFightComponent() const { return FightComponent; }
+	FORCEINLINE void SetBeHurtID(int32 HurtID) {BeHurtID = HurtID;AccumulatedHurts = 0;}
 
 	UFUNCTION(BlueprintPure, Category="Trajectory", meta=(BlueprintThreadSafe))
 	UCharacterTrajectoryComponent* GetCharacterTrajectoryComponent() const;
@@ -81,4 +89,6 @@ public:
 
 	/* 造成伤害的角色, 造成伤害的具体Actor（枪，刀，剑），伤害Tag，血量值，是否播放受击动画*/
 	virtual void HandleHealth(AAzureCharacterBase* ActtackerPawn,AActor* ActtackerActor, const struct FGameplayTagContainer& InTags,float HealthAmount, bool bPlayHit = true);
+
+	virtual bool PlayBoneImpulse(AAzureCharacterBase* InstigatorPawn, AActor* DamageCauser);
 };

@@ -23,4 +23,10 @@ struct FCharacterStyleTable :public FTableRowBase
 
 	UPROPERTY(EditDefaultsOnly, Category = "CharacterStyle")
 	TSubclassOf<AAzureCharacterBase> CharacterBaseClass;
+
+	UPROPERTY(BlueprintReadWrite, Category="CharacterStyle")
+	TArray<UAnimMontage*> DeathAnim;
+
+	UPROPERTY(BlueprintReadWrite, Category="CharacterStyle")
+	TArray<UAnimMontage*> BeHurtAnim;
 };

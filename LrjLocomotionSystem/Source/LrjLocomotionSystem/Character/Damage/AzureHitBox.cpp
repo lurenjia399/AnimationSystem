@@ -42,6 +42,8 @@ void AAzureHitBox::HandleDamage(UPrimitiveComponent* OverlappedComponent, AActor
 							return;
 						}
 
+						target->SetBeHurtID(GetHitID());
+
 						FGameplayEventData EventData;
 						EventData.Instigator = attacker;
 						EventData.Target = target;

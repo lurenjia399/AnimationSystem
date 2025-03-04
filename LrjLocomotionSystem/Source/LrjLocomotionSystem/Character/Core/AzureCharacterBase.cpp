@@ -28,6 +28,10 @@ AAzureCharacterBase::AAzureCharacterBase()
 	
 	CharacterType = ECharacterType::CHARACTER_NONE;
 	DataTableIndex = INDEX_NONE;
+
+	BeHurtID = INDEX_NONE;
+	AccumulatedHurts = 0;
+	MaxAccumulatedHurts = 1;
 }
 
 void AAzureCharacterBase::BeginPlay()
@@ -144,9 +148,48 @@ UCharacterTrajectoryComponent* AAzureCharacterBase::GetCharacterTrajectoryCompon
 void AAzureCharacterBase::HandleDamage(float DamageAmount, const FGameplayTagContainer& DamageTags,
                                        AAzureCharacterBase* ActtackerPawn, AActor* ActtackerActor)
 {
+	if(const FCharacterStyleTable* InStyleTable = GetStyleTable())
+	{
+		if(IsDie())
+		{
+			if(!InStyleTable->DeathAnim.IsEmpty())
+			{
+				int32 AnimIndex = FMath::RandRange(0, InStyleTable->DeathAnim.Num() - 1);
+				int32 AnimSectionNum = InStyleTable->DeathAnim[AnimIndex]->CompositeSections.Num();
+				int32 CurrentSectionsIndex = FMath::RandRange(0, AnimSectionNum - 1);
+
+				PlayAnimMontage(InStyleTable->DeathAnim[AnimIndex], 1, *FString::FromInt(CurrentSectionsIndex));
+			}
+		}
+		else
+		{
+			AccumulatedHurts ++;
+			if(AccumulatedHurts >= MaxAccumulatedHurts)
+			{
+				AccumulatedHurts = 0;
+				if(!InStyleTable->BeHurtAnim.IsEmpty())
+				{
+					int32 AnimIndex = FMath::RandRange(0, InStyleTable->BeHurtAnim.Num() - 1);
+					if(BeHurtID != INDEX_NONE)
+					{
+						PlayAnimMontage(InStyleTable->BeHurtAnim[AnimIndex], 1, *FString::FromInt(BeHurtID));
+					}
+				}
+			}
+			else
+			{
+				PlayBoneImpulse(ActtackerPawn, ActtackerActor);
+			}
+		}
+	}
 }
 
 void AAzureCharacterBase::HandleHealth(AAzureCharacterBase* ActtackerPawn, AActor* ActtackerActor,
 	const FGameplayTagContainer& InTags, float HealthAmount, bool bPlayHit)
 {
+}
+
+bool AAzureCharacterBase::PlayBoneImpulse(AAzureCharacterBase* InstigatorPawn, AActor* DamageCauser)
+{
+	return false;
 }
