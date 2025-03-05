@@ -58,8 +58,7 @@ void UBTService_Base::TickNode(UBehaviorTreeComponent& OwnerComp, uint8* NodeMem
 					AActor* InActorTaget = Cast<AActor>(MyBlackBoard->GetValueAsObject(BlackBoardKey_Target.SelectedKeyName));
 					
 					ISAIBTCharacterInterface* InTarget = Cast<ISAIBTCharacterInterface>(InActorTaget);
-					if (InTarget &&
-						!InTarget->IsDie())//判断目标是否死亡 如果目标死亡
+					if (InTarget && !InTarget->IsDie())//判断目标是否死亡 如果目标死亡
 					{
 						//距离判断
 						float Distance = FVector::Dist(InActorTaget->GetActorLocation(), OwnerController->GetPawn()->GetActorLocation());

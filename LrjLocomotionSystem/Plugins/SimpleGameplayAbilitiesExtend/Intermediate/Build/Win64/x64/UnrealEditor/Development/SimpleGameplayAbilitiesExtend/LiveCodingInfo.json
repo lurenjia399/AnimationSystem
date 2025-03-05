@@ -32,13 +32,13 @@
 			"SimpleAbilitySystemComponent.cpp.obj",
 			"SimpleGameplayAbility.cpp.obj",
 			"SimpleGameplayAbilityActor.cpp.obj",
-			"SimpleGameplayAbilityMontage.cpp.obj",
 			"SimpleGameplayAbilityType.cpp.obj",
 			"GameplayAbility_Effect.cpp.obj",
 			"GameplayAbility_Skill.cpp.obj",
 			"SimpleFightComponent.cpp.obj",
 			"SimpleGameplayAbilitiesExtend.cpp.obj",
-			"SimpleGameplayAbilitiesExtendBPLibrary.cpp.obj"
+			"SimpleGameplayAbilitiesExtendBPLibrary.cpp.obj",
+			"SimpleGameplayAbilityMontage.cpp.obj"
 		]
 	}
 }

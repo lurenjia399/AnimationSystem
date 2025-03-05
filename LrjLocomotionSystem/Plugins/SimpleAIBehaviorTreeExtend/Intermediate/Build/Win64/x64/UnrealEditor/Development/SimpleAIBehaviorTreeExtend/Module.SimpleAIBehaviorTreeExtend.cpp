@@ -34,7 +34,6 @@
 #include "F:/GitHub/AnimationSystem/LrjLocomotionSystem/Plugins/SimpleAIBehaviorTreeExtend/Source/SimpleAIBehaviorTreeExtend/Private/BehaviorTree/BTService/BTService_Boss.cpp"
 #include "F:/GitHub/AnimationSystem/LrjLocomotionSystem/Plugins/SimpleAIBehaviorTreeExtend/Source/SimpleAIBehaviorTreeExtend/Private/BehaviorTree/BTService/BTService_Monster.cpp"
 #include "F:/GitHub/AnimationSystem/LrjLocomotionSystem/Plugins/SimpleAIBehaviorTreeExtend/Source/SimpleAIBehaviorTreeExtend/Private/BehaviorTree/BTService/BTService_NPC.cpp"
-#include "F:/GitHub/AnimationSystem/LrjLocomotionSystem/Plugins/SimpleAIBehaviorTreeExtend/Source/SimpleAIBehaviorTreeExtend/Private/BehaviorTree/BTService/Core/BTService_Base.cpp"
 #include "F:/GitHub/AnimationSystem/LrjLocomotionSystem/Plugins/SimpleAIBehaviorTreeExtend/Source/SimpleAIBehaviorTreeExtend/Private/BehaviorTree/BTTask/BTTask_ActivateGameplayAbility.cpp"
 #include "F:/GitHub/AnimationSystem/LrjLocomotionSystem/Plugins/SimpleAIBehaviorTreeExtend/Source/SimpleAIBehaviorTreeExtend/Private/BehaviorTree/BTTask/BTTask_AttackTarget.cpp"
 #include "F:/GitHub/AnimationSystem/LrjLocomotionSystem/Plugins/SimpleAIBehaviorTreeExtend/Source/SimpleAIBehaviorTreeExtend/Private/BehaviorTree/BTTask/BTTask_PlayMontageDirectly.cpp"

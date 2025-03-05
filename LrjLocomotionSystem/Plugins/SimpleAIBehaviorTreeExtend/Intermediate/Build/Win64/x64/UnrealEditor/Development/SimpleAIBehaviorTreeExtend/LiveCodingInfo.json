@@ -37,7 +37,6 @@
 			"BTService_Boss.cpp.obj",
 			"BTService_Monster.cpp.obj",
 			"BTService_NPC.cpp.obj",
-			"BTService_Base.cpp.obj",
 			"BTTask_ActivateGameplayAbility.cpp.obj",
 			"BTTask_AttackTarget.cpp.obj",
 			"BTTask_PlayMontageDirectly.cpp.obj",
@@ -48,7 +47,8 @@
 			"SimpleAIBehaviorTreeExtendMethod.cpp.obj",
 			"SAIBTInterface.cpp.obj",
 			"SimpleAIBehaviorTreeExtend.cpp.obj",
-			"SimpleAIBehaviorTreeExtendBPLibrary.cpp.obj"
+			"SimpleAIBehaviorTreeExtendBPLibrary.cpp.obj",
+			"BTService_Base.cpp.obj"
 		]
 	}
 }

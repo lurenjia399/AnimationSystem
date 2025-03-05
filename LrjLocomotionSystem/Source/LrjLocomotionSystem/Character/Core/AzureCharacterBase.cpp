@@ -70,6 +70,12 @@ void AAzureCharacterBase::BeginPlay()
 	AnimBPMesh->AddTickPrerequisiteComponent(GetMesh());
 }
 
+void AAzureCharacterBase::Tick(float DeltaSeconds)
+{
+	Super::Tick(DeltaSeconds);
+
+	bHit.Tick(DeltaSeconds);
+}
 
 
 const FCharacterAttributeTable* AAzureCharacterBase::GetAttributeTable() const
@@ -94,6 +100,11 @@ bool AAzureCharacterBase::IsDie() const
 		return AttributeSet->Health.GetCurrentValue() <= 0.f;
 	}
 	return false;
+}
+
+bool AAzureCharacterBase::IsHit() const
+{
+	return *bHit;
 }
 
 ECharacterType AAzureCharacterBase::GetCharacterType() const
@@ -163,6 +174,7 @@ void AAzureCharacterBase::HandleDamage(float DamageAmount, const FGameplayTagCon
 		}
 		else
 		{
+			bHit = true;
 			AccumulatedHurts ++;
 			if(AccumulatedHurts >= MaxAccumulatedHurts)
 			{
@@ -172,12 +184,14 @@ void AAzureCharacterBase::HandleDamage(float DamageAmount, const FGameplayTagCon
 					int32 AnimIndex = FMath::RandRange(0, InStyleTable->BeHurtAnim.Num() - 1);
 					if(BeHurtID != INDEX_NONE)
 					{
-						PlayAnimMontage(InStyleTable->BeHurtAnim[AnimIndex], 1, *FString::FromInt(BeHurtID));
+						// 受击蒙太奇播放时长
+						bHit = PlayAnimMontage(InStyleTable->BeHurtAnim[AnimIndex], 1, *FString::FromInt(BeHurtID));
 					}
 				}
 			}
 			else
 			{
+				bHit = 4.0f;
 				PlayBoneImpulse(ActtackerPawn, ActtackerActor);
 			}
 		}

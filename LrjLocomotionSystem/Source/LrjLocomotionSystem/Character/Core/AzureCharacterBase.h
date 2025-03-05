@@ -29,6 +29,7 @@ public:
 	AAzureCharacterBase();
 public:
 	virtual void BeginPlay() override;
+	virtual void Tick(float DeltaSeconds) override;
 public:
 	UPROPERTY(EditDefaultsOnly, Category = "Character|Defaults")
 	ECharacterType CharacterType;
@@ -67,6 +68,7 @@ public:
 
 public:
 	virtual bool IsDie() const override;
+	virtual bool IsHit() const override;
 	virtual ECharacterType GetCharacterType() const override;
 	// 黑板执行的攻击
 	virtual void SAIBT_Attack(FName Tag) override;
@@ -91,4 +93,7 @@ public:
 	virtual void HandleHealth(AAzureCharacterBase* ActtackerPawn,AActor* ActtackerActor, const struct FGameplayTagContainer& InTags,float HealthAmount, bool bPlayHit = true);
 
 	virtual bool PlayBoneImpulse(AAzureCharacterBase* InstigatorPawn, AActor* DamageCauser);
+
+protected:
+	FResetBool bHit;
 };
